@@ -1,0 +1,10 @@
+name: 'Generate Podspec'
+description: 'Generate a podspec for your SwiftPM project based on tagged releases.'
+inputs:
+  who-to-greet:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node14.3'
+  main: 'index.ts'
