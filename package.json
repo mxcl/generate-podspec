@@ -22,7 +22,7 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.9.1",
     "@types/node": "^14.0.11",
     "actions-toolkit": "^4.0.0"
   }
